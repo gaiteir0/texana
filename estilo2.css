@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(/imagens/background%20fundo.png); 
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.item-carrinho {
+  display: inline-block;
+  width: 200px;
+  margin: 0 10px 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.item-carrinho img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.item-carrinho h3 {
+  margin-top: 10px;
+}
+
+.item-carrinho p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button.remover-do-carrinho {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+button.remover-do-carrinho:hover {
+  background-color: #f44336;
+}
+
+.total {
+  text-align: right;
+  margin-top: 20px;
+}
+
+button.finalizar-compra {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px; /* Adicionado para espaçar os botões */
+}
+
+button.finalizar-compra:hover {
+  background-color: #45a049;
+}
+
+button.voltar {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button.voltar:hover {
+  background-color: #45a049;
+}
+
+
